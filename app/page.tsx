@@ -1,4 +1,5 @@
 'use client';
+import { getDaysAgo } from '@/utils/date';
 import { Job } from '@/types/job';
 
 // Job[] = tells TS "this must be an array of Job objects"
@@ -20,7 +21,7 @@ const fakeJobs: Job[] = [
 ];
 
 export default function Home() {
-  const now = new Date();
+  
   return (
     <div>
       <h1>Job Listings</h1>
@@ -30,9 +31,7 @@ export default function Home() {
             <h2>{job.title}</h2>
             <p>{job.company}</p>
             <p>{job.location}</p>
-            <p>{job.postedAt.toLocaleDateString()}</p>
-            <p>Posted: {job.postedAt.toDateString()}</p>  
-            <p>Posted {Math.floor((now.getTime() - job.postedAt.getTime()) / 86400000)} days ago </p>
+            <p>{getDaysAgo(job.postedAt)} days ago</p>
           </li>
         ))}
       </ul>
