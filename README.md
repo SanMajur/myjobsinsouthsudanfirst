@@ -14,7 +14,7 @@ Connecting job seekers and employers in South Sudan
 ### **Building in Public**
 
 **Started**: May 22, 2026
-**Daily build time**: 9:30am - 11:00am CAT
+**Build schedule**: Mon–Fri 9:30–11:00am CAT, Sat–Sun 10:00am–2:00pm CAT with breaks
 **Current**: Day 1 - Job Types + TypeScript Fundamentals
 **Progress**: 16 commits shipped. See [LEARNINGS.md](https://github.com/SanMajur/myjobsinsouthsudan/blob/main/LEARNINGS.md)
 
