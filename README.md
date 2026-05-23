@@ -2,23 +2,59 @@
 
 Connecting job seekers and employers in South Sudan
 
-### Stack
-- Next.js 14 App Router
-- TypeScript
-- Tailwind CSS
-- Supabase 
+**Live:**  Pending
 
-### Building in public
+### **Stack**
+- **Framework**: Next.js 14 App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Database**: Supabase
+- **Deploy**: Vercel
 
-Started: may 22, 2026
-Daily build time: 9:30am - 11am CAT
-Current: Day 0 - Project setup
+### **Building in Public**
 
-### Roadmap
+**Started**: May 22, 2026
+**Daily build time**: 9:30am - 11:00am CAT
+**Current**: Day 1 - Job Types + TypeScript Fundamentals
+**Progress**: 16 commits shipped. See [LEARNINGS.md](https://github.com/SanMajur/myjobsinsouthsudan/blob/main/LEARNINGS.md)
+
+### **Roadmap**
+
+**Week 1: Core Domain + UI**
 - [x] Day 0: Setup Next.js + TS + Tailwind
-- [] Week 1: Job types + JobCard component + deploy
-- [] Week 2: Supabase + Job listings
-- [] Week 3: Post Job form
-- [] Week 4: Auth + MVP live
+- [x] Day 1: Job types + postedAt + isRemote + employmentType
+- [ ] Day 2: JobCard component + list view
+- [ ] Day 3: Filters: Remote + Full-time
+- [ ] Day 4: Deploy to Vercel
 
-Follow progress in LEARNINGS.md
+**Week 2: Database + Real Data**
+- [ ] Day 5: Supabase setup + Job table schema
+- [ ] Day 6: Seed data + fetch jobs
+- [ ] Day 7: Server Components + loading states
+
+**Week 3: Employer Flow**
+- [ ] Day 8: Post Job form + validation
+- [ ] Day 9: Insert to Supabase + RLS
+- [ ] Day 10: Form errors + success states
+
+**Week 4: Auth + MVP**
+- [ ] Day 11: Supabase Auth + middleware
+- [ ] Day 12: Protected /post-job route
+- [ ] Day 13: User profiles + my-jobs
+- [ ] Day 14: MVP live + share
+
+### **Why**
+Job boards in South Sudan have broken data models. Titles mixed with locations. String dates. No filters.
+
+Building the standard: proper types, ISO dates, boolean flags, union types. TS prevents runtime bugs before users in Juba see them.
+
+### **Local Setup**
+```bash
+git clone https://github.com/SanMajur/myjobsinsouthsudan.git
+cd myjobsinsouthsudan
+npm install
+npm run dev
+
+```
+### Contributing
+This is a learning project. Follow daily progress in [LEARNINGS.md](https://github.com/SanMajur/myjobsinsouthsudan/blob/main/LEARNINGS.md). PRs welcome after MVP.
