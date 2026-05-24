@@ -5,6 +5,6 @@ export interface Job {
   location: string;
   postedAt: Date;
   isRemote: boolean; 
-  employmentType: "Full-time" | "Part-time" | "Contract" | "Internship";
-  salary?: number;
+  employmentType: "Full-time" | "Part-time" | "Contract" | "Internship"; // Using a union type to restrict the values for employmentType
+  salary?: number; // Optional property for salary because not all job listings may include this information
 }
