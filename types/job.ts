@@ -7,4 +7,5 @@ export interface Job {
   isRemote: boolean; 
   employmentType: "Full-time" | "Part-time" | "Contract" | "Internship"; // Using a union type to restrict the values for employmentType
   salary?: number; // Optional property for salary because not all job listings may include this information
+  description?: string; // Optional property for job description to provide more details about the job listing
 }
