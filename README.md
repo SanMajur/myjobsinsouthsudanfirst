@@ -23,9 +23,9 @@ Connecting job seekers and employers in South Sudan
 **Week 1: Core Domain + UI**
 - [x] Day 0: Setup Next.js + TS + Tailwind
 - [x] Day 1: Job types + postedAt + isRemote + employmentType
-- [ ] Day 2: JobCard component + list view
-- [ ] Day 3: Filters: Remote + Full-time
-- [ ] Day 4: Deploy to Vercel
+- [x] Day 2: JobCard component + list view
+- [x] Day 3: Filters: Remote + Full-time
+- [x] Day 4: Deploy to Vercel
 
 **Week 2: Database + Real Data**
 - [ ] Day 5: Supabase setup + Job table schema
