@@ -28,13 +28,13 @@ Connecting job seekers and employers in South Sudan
 - [x] Day 4: Deploy to Vercel
 
 **Week 2: Database + Real Data**
-- [ ] Day 5: Supabase setup + Job table schema
-- [ ] Day 6: Seed data + fetch jobs
-- [ ] Day 7: Server Components + loading states
+- [x] Day 5: Supabase setup + Job table schema
+- [x] Day 6: Seed data + fetch jobs
+- [x] Day 7: Server Components + loading states
 
 **Week 3: Employer Flow**
-- [ ] Day 8: Post Job form + validation
-- [ ] Day 9: Insert to Supabase + RLS
+- [x] Day 8: Post Job form + validation
+- [x] Day 9: Insert to Supabase + RLS
 - [ ] Day 10: Form errors + success states
 
 **Week 4: Auth + MVP**
