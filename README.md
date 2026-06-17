@@ -35,12 +35,12 @@ Connecting job seekers and employers in South Sudan
 **Week 3: Employer Flow**
 - [x] Day 8: Post Job form + validation
 - [x] Day 9: Insert to Supabase + RLS
-- [ ] Day 10: Form errors + success states
+- [x] Day 10: Form errors + success states
 
 **Week 4: Auth + MVP**
-- [ ] Day 11: Supabase Auth + middleware
-- [ ] Day 12: Protected /post-job route
-- [ ] Day 13: User profiles + my-jobs
+- [x] Day 11: Supabase Auth + middleware
+- [x] Day 12: Protected /post-job route
+- [x] Day 13: User profiles + my-jobs
 - [ ] Day 14: MVP live + share
 
 ### **Why**
